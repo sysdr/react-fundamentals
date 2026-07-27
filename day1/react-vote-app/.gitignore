@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+dist-python/
+
+# Build / cache
+dist/
+build/
+.vite/
+coverage/
+.turbo/
+.cache/
+.parcel-cache/
+*.tsbuildinfo
+
+# Runtime / logs
+.server.pid
+.server.log
+.metrics.json
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment / secrets (never commit API keys)
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Test / temp
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Istio / k8s local manifests (generated or local only)
+istio/
+istio-system/
+*istio*.yaml
+*istio*.yml
+
+# Docker local overrides
+docker-compose.override.yml
